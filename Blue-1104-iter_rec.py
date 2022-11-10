@@ -29,4 +29,4 @@ def recursive_power(base, exp):
   else:
    return (base * recursive_power(base, exp - 1)) 
 
-print recursive_power(10, 10)
+print (recursive_power(10, 10))
